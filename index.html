@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <link href="./src/css/bootstrap.css" rel="stylesheet" />
+    <link href="./src/css/style.css" rel="stylesheet" />
+    <title>Index</title>
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+      >
+        <span class="fs-4">Electron - Bootstrap 5 / Index</span>
+      </div>
+      <hr />
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link active" aria-current="page"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="page1.html" class="nav-link bg-warning text-dark">Page 1</a>
+        </li>
+        <li class="nav-item">
+          <a href="page2.html" class="nav-link bg-danger text-white">Page 2</a>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>
